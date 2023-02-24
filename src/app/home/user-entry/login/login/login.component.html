@@ -1,0 +1,18 @@
+
+<div>
+  <div style="height: 60px;">
+  </div>
+<form [formGroup]="userDetail" (ngSubmit)="userData()">
+    <div>
+      <label>UserName : </label>&nbsp;
+      <input type="text" placeholder="Enter Name" name="user" formControlName="username">
+    </div>
+    <div>
+      <label>Password : </label>&nbsp;
+      <input type="password" placeholder="Enter Password" name="password" formControlName="password">
+    </div>
+    <div>
+      <button  type="submit">submit</button>
+  </div>
+  </form>
+  </div>
